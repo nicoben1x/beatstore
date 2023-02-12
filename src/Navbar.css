@@ -1,0 +1,31 @@
+.nav-bar{
+    height: 60px;
+    width: 100%;
+    background-color: var(--color-three);
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    margin-bottom: 60px;
+}
+.nav-bar-ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.nav-bar-ul-li{
+    color: var(--color-two);
+    margin: 8px;
+    font-size: 22px;
+
+}
+.nav-bar-ul-li-a{
+    text-decoration: none;
+    list-style: none;
+    color: var(--color-two);
+
+}

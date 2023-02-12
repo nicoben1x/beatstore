@@ -1,0 +1,22 @@
+.beatscard-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-bottom: solid var(--color-four) 5px;
+  width:250px;
+  margin: 15px;
+  padding: 6px;
+  cursor: pointer;
+}
+.beatscard-div:hover{
+    border-bottom: solid var(--color-three) 5px;
+    
+    
+    
+}
+.beatscard-img{
+    object-fit: cover;
+    width: 200px;
+}

@@ -1,0 +1,16 @@
+.beats-space{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: transparent;
+    justify-content: space-around;
+    align-items: center;
+}
+.beats-div{
+    background-color: var(--color-two);
+}
+.beats-h1{
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 5px;
+}

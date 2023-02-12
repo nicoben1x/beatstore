@@ -1,0 +1,26 @@
+.banner-div{
+    width:100%;
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   
+}
+.banner-img{
+    width: 100%;
+    object-fit:cover;
+    height: 100%;
+   
+    opacity: 1;
+}
+.banner-h1{
+   position:absolute;
+   color: var(--color-one);
+   margin: auto;
+   background-color: transparent;
+   font-size: 72px;
+   text-align: center;
+   text-shadow: 3px 3px 3px black;
+   z-index: 1;
+}
