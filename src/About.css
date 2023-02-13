@@ -1,0 +1,10 @@
+.about-h1{
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 5px;
+    color: var(--color-two);
+}
+.about-div{
+    background-color: var(--color-three);
+    height:500px;
+}

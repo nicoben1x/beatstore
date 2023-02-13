@@ -26,6 +26,7 @@
 
 .contact-space{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -35,4 +36,5 @@
 }
 .contact-div{
     background-color: var(--color-one);
+ 
 }

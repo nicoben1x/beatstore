@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import Banner from './Banner';
 import Beats from './Beats';
 import Contact from './Contact';
+import About from './About';
 
 function App() {
   return (
@@ -15,10 +16,13 @@ function App() {
         <Banner />
         <Beats />
         <Contact/>
+        <About/>
       </div>
 
     </>
   );
 }
+
+
 
 export default App;
