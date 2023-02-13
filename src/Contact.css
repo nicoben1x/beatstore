@@ -1,0 +1,38 @@
+.contact-h1{
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 5px;
+    margin-bottom: 19px;
+}
+.contact-card-img{
+    object-fit: cover;
+    width: 150px;
+    transition: all 0.4s;
+}
+.contact-card-img:hover{
+    width: 160px;
+
+}
+.contact-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid var(--color-four) 5px;
+    cursor: pointer;
+    width:200px;
+    height:260px;
+}
+
+.contact-space{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-card-h2{
+    font-size: 39px;
+}
+.contact-div{
+    background-color: var(--color-one);
+}

@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './Navbar';
 import Banner from './Banner';
 import Beats from './Beats';
+import Contact from './Contact';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
 
         <Banner />
         <Beats />
+        <Contact/>
       </div>
 
     </>
