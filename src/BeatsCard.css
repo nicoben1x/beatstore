@@ -15,6 +15,7 @@
     
     
     
+    
 }
 .beatscard-img{
     object-fit: cover;
@@ -37,4 +38,7 @@
 }
 .nonedis{
   display: none;
+}
+audio::-webkit-media-controls-panel {
+  background-color: var(--color-two);
 }
