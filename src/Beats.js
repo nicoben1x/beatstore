@@ -1,5 +1,9 @@
 import "./Beats.css"
 import BeatsCard from "./BeatsCard";
+import song1 from "./audio/song1.mp3";
+import song2 from "./audio/song2.mp3";
+import song3 from "./audio/song3.mp3";
+
 function Beats() {
     return (
         <div className="beats-div">
@@ -10,6 +14,7 @@ function Beats() {
                     title="Oranga War"
                     genre="Trap"
                     bpm={120}
+                    song={song1}
                 />
 
                 <BeatsCard
@@ -17,6 +22,7 @@ function Beats() {
                     title="Peace Machine"
                     genre="Reggeaton"
                     bpm={90}
+                    song={song2}
                 />
 
                 <BeatsCard
@@ -24,6 +30,7 @@ function Beats() {
                     title="Big Bana"
                     genre="Rap"
                     bpm={85}
+                    song={song3}
                 />
 
             </div>

@@ -7,7 +7,7 @@
 .contact-card-img{
     object-fit: cover;
     width: 150px;
-    transition: all 0.4s;
+    transition: all 0.3s;
 }
 .contact-card-img:hover{
     width: 160px;
@@ -30,6 +30,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 40px;
 }
 .contact-card-h2{
     font-size: 39px;
