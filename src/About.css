@@ -3,4 +3,31 @@
     background-color: var(--color-three);
     height:245px;
     border-top: solid var(--color-four) 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.derechos{
+    font-size: 21px;
+    margin :10px;
+    padding: 7px;
+    color: white;
+    color: var(--color-one);
+}
+.about-frase{
+    font-size: 21px;
+    margin :10px;
+    padding: 7px;
+    color: var(--color-one);
+}
+.about-textmark{
+    
+    background-color: var(--color-four);
+}
+.about-space{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
 }
